@@ -1,0 +1,1 @@
+package com.inyaw.admin.sys.dto;import com.inyaw.admin.sys.bean.InyaaSysDept;import lombok.Getter;import lombok.Setter;import java.util.List;@Setter@Getterpublic class InyaaSysDeptDto extends InyaaSysDept {    private List<InyaaSysDeptDto> children;}
